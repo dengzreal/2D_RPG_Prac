@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 490135363}
   - component: {fileID: 490135362}
   m_Layer: 8
-  m_Name: GameObject (1)
+  m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -195,6 +196,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f838f22e6563e4c9e03ead08af6be8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2010342431}
+  moveSpeed: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -221,7 +236,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 453.28452
+  orthographic size: 327.49118
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -264,7 +279,7 @@ GameObject:
   - component: {fileID: 1696669317}
   - component: {fileID: 1696669316}
   m_Layer: 8
-  m_Name: $Main_Character_1_1 (1)
+  m_Name: $NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,7 +406,7 @@ GameObject:
   - component: {fileID: 2010342435}
   - component: {fileID: 2010342436}
   m_Layer: 0
-  m_Name: $Main_Character_1_1
+  m_Name: $Main_Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,7 +548,7 @@ GameObject:
   - component: {fileID: 2088495878}
   - component: {fileID: 2088495877}
   m_Layer: 8
-  m_Name: GameObject
+  m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
